@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    color: #5f5f5f;
+    margin: 0 100px 0 50px;
+    background-color: #070707;
+}
+.div {
+    margin-left: 40px;
+}
+.nav_logo{
+    width: 50px;
+    height: 30px;
+    color: var(--twitter-theme-color);
+    fill: currentColor;
+}
+
+.Menu_options{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Menu_options .material-icons{
+    padding: 20px;
+}
+
+.Menu_options h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.Menu_options:hover{
+    background-color: var(--twitter-background-color);
+    border-radius: 30px;
+    color: var(--twitter-theme-color);
+}
+
+.tweet_btn{
+    width: 100%;
+    background-color: var(--twitter-theme-color);
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    height: 50px;
+}
+
+.gotit_btn{
+    width: 20%;
+    background-color: white;
+    border: none;
+    color: rgb(12, 11, 11);
+    font-weight: bold;
+    border-radius: 30px;
+    height: 50px;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+}
+main{
+    flex: 0.5; 
+    border-right: 1px solid var(--twitter-background-color);
+    min-width: fit-content;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    background-color: #070707;
+    z-index: 10;
+    border: 1px solid var(--twitter-background-color);
+    padding: 15px 20px;
+
+}
+
+main::-webkit-scrollbar{
+    display: none;
+
+}
+
+.header h2{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tweet_box-input img{
+    border-radius: 50%;
+    height: 40px;
+
+
+}
+
+.tweet_box{
+    padding-bottom: 10px;
+    border-bottom: 8px;
+    padding-right: 10px;
+}
+
+.tweet_box form{
+    display: flex;
+    flex-direction: column;
+}
+
+.tweet_box-input{
+    display: flex;
+    padding: 20px;
+}
+
+.tweet_box-input input{
+    background-color: #070707;
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: rgb(6, 6, 7);
+}
+
+.tweet_box-input button{ 
+    background-color: rgb(8, 8, 97);
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+    width: 80px;
+    height: 40px;
+    margin-top: 60px;
+    margin-left: 50px; 
+}
+.post_profile-image img{
+    border-radius: 50%;
+    height: 40px;
+}
+
+.post{
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--twitter-background-color);
+    padding-bottom: 10px;
+}
+.post_body img{
+    width: 450px;
+    object-fit: contain;
+    border-radius:ga 20px;
+}
+.post-header-text button{
+    width: 40px;
+    border-radius: 30%;
+    background-color: rgb(99, 91, 91);
+}
+.post_header-text h3 {
+    color: white;
+}
+.linee {
+    background-color: #2e2e2e;
+}
+.post_footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.post_badge{
+    font-size: 14px !important;
+    color: var(--twitter-theme-color);
+    margin-right: 5px;
+}
+.line li{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 100px;
+    padding-right: 50px;
+}
+.vl {
+    border-left: 1px solid rgb(80, 80, 80);
+    height: 500px;
+    position: absolute;
+    left: 16.9%;
+    margin-left: -3px;
+    top: 0;
+  }
+/*---right sidebar----*/
+
+main{
+    flex: 0.3; 
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    background-color: var(--twitter-background-color);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.aside_input input{
+    border: none;
+    outline: none;
+}
+
+.aside_search-icon{
+    color: gray;
+}
+
+.aside_container{
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #070707;;
+    border-radius: 20px;
+}
+
+.aside_container h2{
+    font-size: 18px;
+    font-weight: 800;
+}
+.left_dots>h6{
+    font-weight: bold;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
